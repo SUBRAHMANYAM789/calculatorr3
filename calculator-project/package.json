@@ -1,0 +1,22 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "A modern calculator application with clean architecture",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "bun test",
+    "dev": "bun --watch src/index.ts"
+  },
+  "keywords": [
+    "calculator",
+    "typescript",
+    "math"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
